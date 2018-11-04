@@ -13,11 +13,11 @@ function draw() {
 	background(255);
 
 	push();
-	image(jkt1, (-mouseX + width) - jkt1.width / 2, 0);
+	image(jkt1, ((-mouseX + width) - jkt1.width / 2) / 10, 0);
 	pop();
 
 	push();
-	image(jkt0, mouseX - jkt0.width / 2, height - jkt0.height);
+	image(jkt0, (mouseX - jkt0.width / 2) / 10, height - jkt0.height);
 	pop();
 
 }
