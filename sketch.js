@@ -10,7 +10,7 @@ function setup() {
 }
 
 function draw() {
-	background(255);
+	background(0, 50);
 
 	push();
 	image(jkt1, ((-mouseX + width) - jkt1.width / 2) / 10, height - jkt1.height);
